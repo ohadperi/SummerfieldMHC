@@ -9,28 +9,27 @@
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap');
   body { font-family: 'Inter', sans-serif; }
   h1, h2, h3 { font-family: 'Playfair Display', serif; }
-  .hero-bg { background: linear-gradient(160deg, #f5e6c8 0%, #e8c98a 50%, #d4a84b 100%); }
+  .hero-bg { background: linear-gradient(160deg, #c8dff0 0%, #93bdd8 50%, #5a92b8 100%); }
   .card { background: white; border-radius: 12px; box-shadow: 0 2px 16px rgba(0,0,0,0.08); padding: 24px; }
-  .tag { display: inline-block; background: rgba(255,255,255,0.7); color: #7a3b00; border: 1px solid #c47a2b; padding: 4px 12px; border-radius: 9999px; font-size: 12px; margin: 3px; font-weight: 600; }
-  .stat-box { text-align: center; padding: 20px; }
+  .tag { display: inline-block; background: rgba(255,255,255,0.75); color: #1a4a6e; border: 1px solid #4a7fa5; padding: 4px 12px; border-radius: 9999px; font-size: 12px; margin: 3px; font-weight: 600; }
+  .stat-box { text-align: center; padding: 16px 8px; }
   .img-thumb { width: 80px; height: 60px; object-fit: cover; border-radius: 6px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s; }
-  .img-thumb.active { border-color: #c47a2b; }
-  .permit-item::before { content: "✅ "; }
+  .img-thumb.active { border-color: #4a7fa5; }
   .pop-stat { text-align:center; background:white; border-radius:12px; padding:20px; box-shadow:0 2px 12px rgba(0,0,0,0.07); }
-  .pop-stat .big { font-size:2.2rem; font-weight:700; color:#8b4513; font-family:'Playfair Display',serif; }
+  .pop-stat .big { font-size:2.2rem; font-weight:700; color:#1a4a6e; font-family:'Playfair Display',serif; }
   .pop-stat .label { font-size:0.8rem; color:#666; text-transform:uppercase; letter-spacing:1px; margin-top:4px; }
-  .retire-card { background:white; border-radius:12px; padding:22px; box-shadow:0 2px 14px rgba(0,0,0,0.07); border-left: 4px solid #c47a2b; }
-  .approval-check { background: #fff8f0; border-left: 4px solid #c47a2b; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; }
-  .approval-check h4 { color: #7a3b00; font-weight: 700; margin-bottom: 6px; }
+  .retire-card { background:white; border-radius:12px; padding:22px; box-shadow:0 2px 14px rgba(0,0,0,0.07); border-left: 4px solid #4a7fa5; }
+  .approval-check { background: #f0f7fc; border-left: 4px solid #4a7fa5; border-radius: 8px; padding: 12px 18px; margin-bottom: 10px; }
+  .approval-check h4 { color: #1a4a6e; font-weight: 700; margin-bottom: 4px; font-size: 0.95rem; }
 </style>
 </head>
-<body class="bg-amber-50">
+<body style="background:#f4f9fc;">
 
 <!-- HERO -->
-<section class="hero-bg py-20 px-6 text-center">
-  <div style="font-size:11px; letter-spacing:3px; color:#7a3b00; text-transform:uppercase; margin-bottom:12px; font-weight:700;">Triple P Ventures LLC Presents</div>
-  <h1 style="font-size:3.5rem; margin-bottom:8px; color:#4a2000; text-shadow: 0 1px 4px rgba(255,255,255,0.6);">☀️ Summerfield MHC</h1>
-  <p style="font-size:1.2rem; color:#7a3b00; margin-bottom:24px; font-weight:500;">Summerfield, Florida — Marion County</p>
+<section class="hero-bg py-12 px-6 text-center">
+  <div style="font-size:11px; letter-spacing:3px; color:#1a4a6e; text-transform:uppercase; margin-bottom:10px; font-weight:700;">Triple P Ventures LLC Presents</div>
+  <h1 style="font-size:3rem; margin-bottom:6px; color:#0d2d45; text-shadow: 0 1px 4px rgba(255,255,255,0.6);">☀️ Summerfield MHC</h1>
+  <p style="font-size:1.1rem; color:#1a4a6e; margin-bottom:18px; font-weight:500;">Summerfield, Florida — Marion County</p>
   <div>
     <span class="tag">49 Lots</span>
     <span class="tag">P-MH Zoned</span>
@@ -38,143 +37,146 @@
     <span class="tag">Developer's Agreement Recorded</span>
     <span class="tag">Near The Villages</span>
   </div>
-  <p style="margin-top:20px; font-size:0.9rem; color:#7a3b00; font-weight:500;">📍 <a href="https://maps.google.com/?q=Summerfield,+FL+34491" target="_blank" style="color:#7a3b00; text-decoration:underline; font-weight:600;">Summerfield, FL 34491</a> &nbsp;|&nbsp; Minutes from The Villages</p>
+  <p style="margin-top:16px; font-size:0.9rem; color:#1a4a6e; font-weight:500;">📍 <a href="https://maps.google.com/?q=Summerfield,+FL+34491" target="_blank" style="color:#1a4a6e; text-decoration:underline; font-weight:600;">Summerfield, FL 34491</a> &nbsp;|&nbsp; Minutes from The Villages</p>
 </section>
 
 <!-- STATS BAR -->
-<section style="background:#7a3b00; color:white;">
+<section style="background:#1a4a6e; color:white;">
   <div style="display:grid; grid-template-columns: repeat(5, 1fr); max-width:900px; margin:0 auto;">
-    <div class="stat-box"><div style="font-size:2rem; font-weight:700; color:#f5c842;">49</div><div style="font-size:0.8rem; color:#f0d5a8; text-transform:uppercase; letter-spacing:1px;">Lots</div></div>
-    <div class="stat-box"><div style="font-size:2rem; font-weight:700; color:#f5c842;">10</div><div style="font-size:0.8rem; color:#f0d5a8; text-transform:uppercase; letter-spacing:1px;">Acres</div></div>
-    <div class="stat-box"><div style="font-size:2rem; font-weight:700; color:#f5c842;">55+</div><div style="font-size:0.8rem; color:#f0d5a8; text-transform:uppercase; letter-spacing:1px;">Age-Restricted</div></div>
-    <div class="stat-box"><div style="font-size:2rem; font-weight:700; color:#f5c842;">$5M+</div><div style="font-size:0.8rem; color:#f0d5a8; text-transform:uppercase; letter-spacing:1px;">Est. Mature Value</div></div>
-    <div class="stat-box"><div style="font-size:2rem; font-weight:700; color:#f5c842;">~65%</div><div style="font-size:0.8rem; color:#f0d5a8; text-transform:uppercase; letter-spacing:1px;">NOI</div></div>
+    <div class="stat-box"><div style="font-size:1.8rem; font-weight:700; color:#8fd3f4;">49</div><div style="font-size:0.75rem; color:#a8cfe0; text-transform:uppercase; letter-spacing:1px;">Lots</div></div>
+    <div class="stat-box"><div style="font-size:1.8rem; font-weight:700; color:#8fd3f4;">10</div><div style="font-size:0.75rem; color:#a8cfe0; text-transform:uppercase; letter-spacing:1px;">Acres</div></div>
+    <div class="stat-box"><div style="font-size:1.8rem; font-weight:700; color:#8fd3f4;">55+</div><div style="font-size:0.75rem; color:#a8cfe0; text-transform:uppercase; letter-spacing:1px;">Age-Restricted</div></div>
+    <div class="stat-box"><div style="font-size:1.8rem; font-weight:700; color:#8fd3f4;">$5M+</div><div style="font-size:0.75rem; color:#a8cfe0; text-transform:uppercase; letter-spacing:1px;">Est. Mature Value</div></div>
+    <div class="stat-box"><div style="font-size:1.8rem; font-weight:700; color:#8fd3f4;">~65%</div><div style="font-size:0.75rem; color:#a8cfe0; text-transform:uppercase; letter-spacing:1px;">NOI</div></div>
   </div>
 </section>
 
 <!-- PHOTO GALLERY -->
-<section style="background:white; padding:60px 24px;">
+<section style="background:white; padding:50px 24px;">
   <div style="max-width:900px; margin:0 auto;">
-    <h2 style="font-size:2rem; color:#4a2000; text-align:center; margin-bottom:8px;">The Property</h2>
-    <p style="text-align:center; color:#888; margin-bottom:32px; font-size:0.95rem;">10 clean, tree-free acres ready for development — adjacent to established retirement communities</p>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+    <h2 style="font-size:2rem; color:#0d2d45; text-align:center; margin-bottom:8px;">The Property</h2>
+    <p style="text-align:center; color:#555; margin-bottom:32px; font-size:0.95rem; max-width:640px; margin-left:auto; margin-right:auto; line-height:1.7;">A once-in-a-generation opportunity to own and develop your own 49-lot manufactured home park — with public utilities already in place, full entitlements secured, and a location at the epicenter of America's fastest-growing retiree market. This is exactly where 55+ dreamers come to enjoy year-round Florida sunshine.</p>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
       <div>
-        <img id="mainImg" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/ce0e8d8f2_Cam_1.png" style="width:100%; border-radius:12px; object-fit:cover; height:320px; box-shadow:0 4px 20px rgba(0,0,0,0.12);" alt="Community Render"/>
+        <img src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/ce0e8d8f2_Cam_1.png" style="width:100%; border-radius:12px; object-fit:cover; height:300px; box-shadow:0 4px 20px rgba(0,0,0,0.12);" alt="Community Render"/>
         <p style="text-align:center; font-size:0.8rem; color:#aaa; margin-top:8px;">Artist's Concept Render — 49-Home Community</p>
       </div>
       <div>
-        <img src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/b7cab4ce5_DJI_20250206093013_0021_D.jpg" style="width:100%; border-radius:12px; object-fit:cover; height:320px; box-shadow:0 4px 20px rgba(0,0,0,0.12);" alt="Aerial Photo"/>
-        <p style="text-align:center; font-size:0.8rem; color:#aaa; margin-top:8px;">Aerial View — Clean, Tree-Free Land Ready to Build</p>
+        <img src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/b7cab4ce5_DJI_20250206093013_0021_D.jpg" style="width:100%; border-radius:12px; object-fit:cover; height:300px; box-shadow:0 4px 20px rgba(0,0,0,0.12);" alt="Aerial Photo"/>
+        <p style="text-align:center; font-size:0.8rem; color:#aaa; margin-top:8px;">Aerial View — Clean, Ready-to-Build Land</p>
       </div>
+    </div>
+    <!-- Third photo full width -->
+    <div>
+      <img src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/9db1bd2ef_WhatsAppImage2023-11-11at12490311.jpeg" style="width:100%; border-radius:12px; object-fit:cover; height:320px; box-shadow:0 4px 20px rgba(0,0,0,0.12);" alt="Land Photo"/>
+      <p style="text-align:center; font-size:0.8rem; color:#aaa; margin-top:8px;">Ground View — Green, Open Land Under Blue Florida Skies</p>
     </div>
   </div>
 </section>
 
 <!-- APPROVAL STATUS -->
-<section style="background:#fff8f0; padding:60px 24px;">
-  <div style="max-width:860px; margin:0 auto;">
-    <h2 style="font-size:2rem; color:#4a2000; text-align:center; margin-bottom:8px;">Current Approval Status</h2>
-    <p style="text-align:center; color:#888; margin-bottom:40px;">The hardest steps are already done. This is a de-risked, shovel-ready opportunity.</p>
+<section style="background:#f0f7fc; padding:40px 24px;">
+  <div style="max-width:780px; margin:0 auto;">
+    <h2 style="font-size:1.7rem; color:#0d2d45; text-align:center; margin-bottom:6px;">Current Approval Status</h2>
+    <p style="text-align:center; color:#888; margin-bottom:24px; font-size:0.9rem;">The hardest steps are already done. This is a de-risked, shovel-ready opportunity.</p>
 
     <div class="approval-check">
       <h4>✔ Zoning: P‑MH (Approved)</h4>
-      <p style="color:#555; font-size:0.9rem; margin:0;">The property is already rezoned to P‑MH — the hardest regulatory step is complete. No zoning risk.</p>
+      <p style="color:#555; font-size:0.87rem; margin:0;">Already rezoned to P‑MH — the hardest regulatory step is complete. No zoning risk for the buyer.</p>
     </div>
 
     <div class="approval-check">
       <h4>✔ Developer's Agreement (Recorded)</h4>
-      <p style="color:#555; font-size:0.9rem; margin:0 0 10px;">The County has formally approved the framework for a 49‑unit MH community. Key terms include:</p>
-      <ul style="color:#555; font-size:0.88rem; padding-left:18px; line-height:1.9;">
-        <li>No more than <strong>49 manufactured home residential units</strong></li>
+      <p style="color:#555; font-size:0.87rem; margin:0 0 8px;">County-approved framework for 49 units. Key terms:</p>
+      <ul style="color:#555; font-size:0.85rem; padding-left:16px; line-height:1.8; margin:0;">
+        <li>Max <strong>49 manufactured home units</strong></li>
         <li><strong>Age‑restricted 55+</strong> community</li>
         <li><strong>Double‑wide, new homes only</strong> (min. 1,300 sq ft)</li>
-        <li>Required amenities: <strong>clubhouse, pool, dog park</strong></li>
-        <li>Type‑E buffers and roadway maintenance obligations</li>
+        <li>Required: <strong>clubhouse, pool, dog park</strong></li>
+        <li>Type‑E buffers &amp; roadway maintenance obligations</li>
       </ul>
     </div>
 
     <div class="approval-check">
       <h4>✔ Preliminary Concept Plan Completed</h4>
-      <p style="color:#555; font-size:0.9rem; margin:0 0 10px;">Engineering layout shows a clean, efficient community footprint:</p>
-      <ul style="color:#555; font-size:0.88rem; padding-left:18px; line-height:1.9;">
-        <li><strong>49 lots</strong></li>
-        <li><strong>1.5 acres</strong> drainage retention</li>
-        <li><strong>0.79-acre</strong> amenity area (clubhouse, pool, dog park)</li>
-        <li><strong>Internal 30' ROW</strong> roads</li>
+      <p style="color:#555; font-size:0.87rem; margin:0 0 8px;">Engineering layout complete:</p>
+      <ul style="color:#555; font-size:0.85rem; padding-left:16px; line-height:1.8; margin:0;">
+        <li><strong>49 lots</strong> · <strong>1.5 acres</strong> drainage · <strong>0.79-acre</strong> amenity area</li>
+        <li><strong>Internal 30' ROW</strong> road network</li>
       </ul>
     </div>
 
-    <div style="background:#fff3cd; border-left:4px solid #e8a900; border-radius:8px; padding:16px 20px; margin-top:20px;">
-      <h4 style="color:#7a5c00; font-weight:700; margin-bottom:6px;">❗ Next Step (Buyer Responsibility)</h4>
-      <p style="color:#555; font-size:0.9rem; margin:0;">Final site plan approval and construction permitting — the last mile to breaking ground.</p>
+    <div style="background:#fff3cd; border-left:4px solid #e8a900; border-radius:8px; padding:12px 18px; margin-top:12px;">
+      <h4 style="color:#7a5c00; font-weight:700; margin-bottom:4px; font-size:0.92rem;">❗ Next Step (Buyer Responsibility)</h4>
+      <p style="color:#555; font-size:0.87rem; margin:0;">Final site plan approval and construction permitting — the last mile to breaking ground.</p>
     </div>
   </div>
 </section>
 
 <!-- SITE PLAN SUMMARY -->
-<section style="background:white; padding:60px 24px;">
+<section style="background:white; padding:50px 24px;">
   <div style="max-width:860px; margin:0 auto;">
-    <h2 style="font-size:2rem; color:#4a2000; text-align:center; margin-bottom:8px;">Site Plan Summary</h2>
-    <p style="text-align:center; color:#888; margin-bottom:40px;">A clean, efficient layout ready for final engineering and permitting.</p>
+    <h2 style="font-size:2rem; color:#0d2d45; text-align:center; margin-bottom:8px;">Site Plan Summary</h2>
+    <p style="text-align:center; color:#888; margin-bottom:36px; font-size:0.95rem;">A clean, efficient layout ready for final engineering and permitting.</p>
     <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:20px;">
-      <div class="card" style="text-align:center; border-top:4px solid #c47a2b;">
+      <div class="card" style="text-align:center; border-top:4px solid #4a7fa5;">
         <div style="font-size:2rem; margin-bottom:8px;">🏠</div>
-        <div style="font-weight:700; color:#4a2000; font-size:1.1rem; margin-bottom:6px;">49 Double-Wide Lots</div>
+        <div style="font-weight:700; color:#0d2d45; font-size:1.05rem; margin-bottom:6px;">49 Double-Wide Lots</div>
         <div style="color:#666; font-size:0.85rem;">54'×75' and 59'×71' lot sizes<br>New homes only, min. 1,300 sq ft</div>
       </div>
-      <div class="card" style="text-align:center; border-top:4px solid #c47a2b;">
+      <div class="card" style="text-align:center; border-top:4px solid #4a7fa5;">
         <div style="font-size:2rem; margin-bottom:8px;">🏊</div>
-        <div style="font-weight:700; color:#4a2000; font-size:1.1rem; margin-bottom:6px;">Amenity Area</div>
+        <div style="font-weight:700; color:#0d2d45; font-size:1.05rem; margin-bottom:6px;">Amenity Area</div>
         <div style="color:#666; font-size:0.85rem;">0.79-acre amenity zone<br>Clubhouse · Pool · Dog Park</div>
       </div>
-      <div class="card" style="text-align:center; border-top:4px solid #c47a2b;">
+      <div class="card" style="text-align:center; border-top:4px solid #4a7fa5;">
         <div style="font-size:2rem; margin-bottom:8px;">🌿</div>
-        <div style="font-weight:700; color:#4a2000; font-size:1.1rem; margin-bottom:6px;">Infrastructure</div>
-        <div style="color:#666; font-size:0.85rem;">Two drainage retention areas<br>Internal 30' ROW road network<br>Type-E landscape buffers on 3 sides</div>
+        <div style="font-weight:700; color:#0d2d45; font-size:1.05rem; margin-bottom:6px;">Infrastructure</div>
+        <div style="color:#666; font-size:0.85rem;">Two drainage retention areas<br>Internal 30' ROW roads<br>Type-E landscape buffers on 3 sides</div>
       </div>
     </div>
-    <div style="background:#fff8f0; border-radius:12px; padding:20px 28px; margin-top:24px; text-align:center;">
-      <span style="font-size:0.95rem; color:#7a3b00; font-weight:600;">🌾 Land is clean and free of trees — ready for immediate site work upon permitting.</span>
+    <div style="background:#e8f4fd; border-radius:12px; padding:18px 28px; margin-top:24px; text-align:center;">
+      <span style="font-size:0.95rem; color:#1a4a6e; font-weight:600;">🌾 Land is clean and free of trees — ready for immediate site work upon permitting.</span>
     </div>
   </div>
 </section>
 
 <!-- INVESTMENT HIGHLIGHTS -->
-<section style="background:#7a3b00; padding:60px 24px; color:white;">
+<section style="background:#1a4a6e; padding:50px 24px; color:white;">
   <div style="max-width:860px; margin:0 auto;">
-    <h2 style="font-size:2rem; color:#f5c842; text-align:center; margin-bottom:8px;">Investment Highlights</h2>
-    <p style="text-align:center; color:#f0d5a8; margin-bottom:40px; font-size:0.95rem;">A rare, de-risked opportunity in one of Florida's fastest-growing retirement corridors.</p>
+    <h2 style="font-size:2rem; color:#8fd3f4; text-align:center; margin-bottom:8px;">Investment Highlights</h2>
+    <p style="text-align:center; color:#a8cfe0; margin-bottom:36px; font-size:0.95rem;">A rare, de-risked opportunity in one of Florida's fastest-growing retirement corridors.</p>
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
-      <div style="background:rgba(255,255,255,0.1); border-radius:12px; padding:24px;">
+      <div style="background:rgba(255,255,255,0.1); border-radius:12px; padding:22px;">
         <div style="font-size:1.5rem; margin-bottom:8px;">💰</div>
-        <h3 style="color:#f5c842; font-size:1.1rem; margin-bottom:8px;">Strong NOI Potential</h3>
-        <p style="color:#f0d5a8; font-size:0.9rem; line-height:1.7;">Expected lot rent of <strong style="color:white;">$650–$850/month</strong> in a supply-constrained, high-demand retiree market. At stabilization, community income can exceed <strong style="color:white;">$40K/month</strong>.</p>
+        <h3 style="color:#8fd3f4; font-size:1.05rem; margin-bottom:8px;">Strong NOI Potential</h3>
+        <p style="color:#d0e8f5; font-size:0.88rem; line-height:1.7;">Expected lot rent of <strong style="color:white;">$650–$850/month</strong> in a supply-constrained, high-demand retiree market. At stabilization, community income can exceed <strong style="color:white;">$40K/month</strong>.</p>
       </div>
-      <div style="background:rgba(255,255,255,0.1); border-radius:12px; padding:24px;">
+      <div style="background:rgba(255,255,255,0.1); border-radius:12px; padding:22px;">
         <div style="font-size:1.5rem; margin-bottom:8px;">📈</div>
-        <h3 style="color:#f5c842; font-size:1.1rem; margin-bottom:8px;">$5M+ Mature Value</h3>
-        <p style="color:#f0d5a8; font-size:0.9rem; line-height:1.7;">Stabilized 49-lot communities in this market trade at significant cap rate compression. Estimated mature asset value of <strong style="color:white;">$5M+</strong> based on comparable sales.</p>
+        <h3 style="color:#8fd3f4; font-size:1.05rem; margin-bottom:8px;">$5M+ Mature Value</h3>
+        <p style="color:#d0e8f5; font-size:0.88rem; line-height:1.7;">Stabilized 49-lot communities in this market trade at significant cap rate compression. Estimated mature asset value of <strong style="color:white;">$5M+</strong> based on comparable sales.</p>
       </div>
-      <div style="background:rgba(255,255,255,0.1); border-radius:12px; padding:24px;">
+      <div style="background:rgba(255,255,255,0.1); border-radius:12px; padding:22px;">
         <div style="font-size:1.5rem; margin-bottom:8px;">🔑</div>
-        <h3 style="color:#f5c842; font-size:1.1rem; margin-bottom:8px;">De-Risked Entitlements</h3>
-        <p style="color:#f0d5a8; font-size:0.9rem; line-height:1.7;">P-MH zoning secured, Developer's Agreement recorded, concept plan complete. The buyer skips the longest and most uncertain phase of development.</p>
+        <h3 style="color:#8fd3f4; font-size:1.05rem; margin-bottom:8px;">De-Risked Entitlements</h3>
+        <p style="color:#d0e8f5; font-size:0.88rem; line-height:1.7;">P-MH zoning secured, Developer's Agreement recorded, concept plan complete. The buyer skips the longest and most uncertain phase of development.</p>
       </div>
-      <div style="background:rgba(255,255,255,0.1); border-radius:12px; padding:24px;">
-        <div style="font-size:1.5rem; margin-bottom:8px;">🌳</div>
-        <h3 style="color:#f5c842; font-size:1.1rem; margin-bottom:8px;">Clean, Ready Land</h3>
-        <p style="color:#f0d5a8; font-size:0.9rem; line-height:1.7;">10 acres with no tree clearing required — significantly reducing site prep cost and timeline versus comparable parcels in the region.</p>
+      <div style="background:rgba(255,255,255,0.1); border-radius:12px; padding:22px;">
+        <div style="font-size:1.5rem; margin-bottom:8px;">🏗️</div>
+        <h3 style="color:#8fd3f4; font-size:1.05rem; margin-bottom:8px;">Public Utilities In Place</h3>
+        <p style="color:#d0e8f5; font-size:0.88rem; line-height:1.7;">Public water and sewer already available — no expensive private infrastructure required. Clean, tree-free land dramatically reduces site prep cost and timeline.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- SUMMERFIELD MARKET -->
-<section style="background:#fff8f0; padding:60px 24px;">
+<section style="background:#f0f7fc; padding:50px 24px;">
   <div style="max-width:860px; margin:0 auto;">
-    <h2 style="font-size:2rem; color:#4a2000; text-align:center; margin-bottom:8px;">Why Summerfield?</h2>
-    <p style="text-align:center; color:#888; margin-bottom:40px;">Gateway to The Villages — one of the fastest-growing retirement markets in the country.</p>
-    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:40px;">
+    <h2 style="font-size:2rem; color:#0d2d45; text-align:center; margin-bottom:8px;">Why Summerfield?</h2>
+    <p style="text-align:center; color:#888; margin-bottom:36px;">Gateway to The Villages — one of the fastest-growing retirement markets in the country.</p>
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:36px;">
       <div class="pop-stat">
         <div class="big">125K+</div>
         <div class="label">The Villages Metro Population</div>
@@ -193,67 +195,67 @@
       </div>
     </div>
     <p style="color:#555; font-size:0.95rem; line-height:1.8; text-align:center; max-width:640px; margin:0 auto;">
-      Summerfield sits directly adjacent to The Villages — the largest and most storied 55+ retirement destination in America. With 400 new retirees arriving every month and The Villages growing at <strong>39% over the last decade</strong>, demand for quality, affordable 55+ housing in surrounding communities like Summerfield has never been higher.
+      Summerfield sits directly adjacent to The Villages — the largest 55+ retirement destination in America. With 400 new retirees arriving every month and The Villages growing at <strong>39% over the last decade</strong>, demand for quality, affordable 55+ housing in surrounding communities has never been stronger.
     </p>
   </div>
 </section>
 
 <!-- RETIREE WAVE -->
-<section style="background:white; padding:60px 24px;">
+<section style="background:white; padding:50px 24px;">
   <div style="max-width:860px; margin:0 auto;">
-    <h2 style="font-size:2rem; color:#4a2000; text-align:center; margin-bottom:8px;">Florida's Retirement Wave</h2>
-    <p style="text-align:center; color:#888; margin-bottom:40px;">Summerfield is in the heart of Florida's most compelling retirement corridor.</p>
+    <h2 style="font-size:2rem; color:#0d2d45; text-align:center; margin-bottom:8px;">Florida's Retirement Wave</h2>
+    <p style="text-align:center; color:#888; margin-bottom:36px;">Summerfield is at the heart of Florida's most compelling retirement corridor.</p>
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
       <div class="retire-card">
         <div style="font-size:1.4rem; margin-bottom:8px;">🌞</div>
-        <h3 style="color:#7a3b00; font-size:1rem; margin-bottom:6px; font-weight:700;">The Villages Overflow Effect</h3>
-        <p style="color:#555; font-size:0.88rem; line-height:1.7;">The Villages is land-constrained and increasingly expensive. Retirees priced out of The Villages naturally gravitate to adjacent communities in Summerfield and Marion County — creating a built-in, motivated tenant base.</p>
+        <h3 style="color:#1a4a6e; font-size:1rem; margin-bottom:6px; font-weight:700;">The Villages Overflow Effect</h3>
+        <p style="color:#555; font-size:0.88rem; line-height:1.7;">The Villages is land-constrained and increasingly expensive. Retirees priced out naturally gravitate to Summerfield and Marion County — creating a built-in, motivated tenant base right at your doorstep.</p>
       </div>
       <div class="retire-card">
         <div style="font-size:1.4rem; margin-bottom:8px;">🏌️</div>
-        <h3 style="color:#7a3b00; font-size:1rem; margin-bottom:6px; font-weight:700;">World-Class Lifestyle Access</h3>
-        <p style="color:#555; font-size:0.88rem; line-height:1.7;">Residents enjoy proximity to The Villages' golf courses, entertainment squares, medical facilities, and shopping — all the amenities without The Villages price tag. Golf cart-accessible communities like Spruce Creek South are just miles away.</p>
+        <h3 style="color:#1a4a6e; font-size:1rem; margin-bottom:6px; font-weight:700;">World-Class Lifestyle Access</h3>
+        <p style="color:#555; font-size:0.88rem; line-height:1.7;">Residents enjoy proximity to The Villages' golf courses, entertainment squares, medical facilities, and shopping — all the amenities without The Villages price tag.</p>
       </div>
       <div class="retire-card">
         <div style="font-size:1.4rem; margin-bottom:8px;">💵</div>
-        <h3 style="color:#7a3b00; font-size:1rem; margin-bottom:6px; font-weight:700;">No State Income or Estate Tax</h3>
-        <p style="color:#555; font-size:0.88rem; line-height:1.7;">Florida has no state income tax and no estate tax — a major financial draw for retirees from high-tax states like New York, New Jersey, and Illinois. This structural advantage fuels continued in-migration year after year.</p>
+        <h3 style="color:#1a4a6e; font-size:1rem; margin-bottom:6px; font-weight:700;">No State Income or Estate Tax</h3>
+        <p style="color:#555; font-size:0.88rem; line-height:1.7;">Florida has no state income tax and no estate tax — a major financial draw for retirees from high-tax states like New York, New Jersey, and Illinois, fueling continuous in-migration.</p>
       </div>
       <div class="retire-card">
         <div style="font-size:1.4rem; margin-bottom:8px;">🏥</div>
-        <h3 style="color:#7a3b00; font-size:1rem; margin-bottom:6px; font-weight:700;">Healthcare & Convenience</h3>
-        <p style="color:#555; font-size:0.88rem; line-height:1.7;">The Summerfield corridor is served by The Villages Regional Hospital and multiple medical facilities — a critical factor for 55+ residents. Ocala's growing medical infrastructure adds additional coverage.</p>
+        <h3 style="color:#1a4a6e; font-size:1rem; margin-bottom:6px; font-weight:700;">Healthcare & Convenience</h3>
+        <p style="color:#555; font-size:0.88rem; line-height:1.7;">Served by The Villages Regional Hospital and multiple medical facilities — a critical factor for 55+ residents. Ocala's growing medical infrastructure adds additional coverage.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- CONTACT / CTA -->
-<section style="background: linear-gradient(135deg, #4a2000, #7a3b00); padding:60px 24px; text-align:center; color:white;">
-  <h2 style="font-size:2.2rem; color:#f5c842; margin-bottom:12px;">Ready to Learn More?</h2>
-  <p style="color:#f0d5a8; font-size:1rem; margin-bottom:36px; max-width:480px; margin-left:auto; margin-right:auto;">This is a rare entitlement package in one of Florida's hottest retirement markets. Inquire today.</p>
+<section style="background: linear-gradient(135deg, #0d2d45, #1a4a6e); padding:50px 24px; text-align:center; color:white;">
+  <h2 style="font-size:2.2rem; color:#8fd3f4; margin-bottom:12px;">Ready to Learn More?</h2>
+  <p style="color:#a8cfe0; font-size:1rem; margin-bottom:32px; max-width:480px; margin-left:auto; margin-right:auto;">This is a rare, fully-entitled opportunity in one of Florida's hottest retirement markets. Inquire today.</p>
 
-  <div style="max-width:500px; margin:0 auto; background:rgba(255,255,255,0.1); border-radius:16px; padding:32px;">
+  <div style="max-width:500px; margin:0 auto; background:rgba(255,255,255,0.1); border-radius:16px; padding:28px;">
     <div style="display:grid; gap:12px; margin-bottom:16px;">
       <input id="sf-name" type="text" placeholder="Your Name" style="padding:12px 16px; border-radius:8px; border:none; font-size:0.95rem; width:100%; box-sizing:border-box;"/>
       <input id="sf-email" type="email" placeholder="Email Address" style="padding:12px 16px; border-radius:8px; border:none; font-size:0.95rem; width:100%; box-sizing:border-box;"/>
       <input id="sf-phone" type="tel" placeholder="Phone Number" style="padding:12px 16px; border-radius:8px; border:none; font-size:0.95rem; width:100%; box-sizing:border-box;"/>
       <textarea id="sf-message" placeholder="Your message or questions..." rows="3" style="padding:12px 16px; border-radius:8px; border:none; font-size:0.95rem; width:100%; box-sizing:border-box; resize:none;"></textarea>
     </div>
-    <button id="sf-submit" onclick="submitSFInquiry()" style="background:#f5c842; color:#4a2000; font-weight:700; padding:14px 36px; border-radius:8px; border:none; cursor:pointer; font-size:1rem; width:100%; letter-spacing:0.5px;">Send Inquiry</button>
+    <button id="sf-submit" onclick="submitSFInquiry()" style="background:#8fd3f4; color:#0d2d45; font-weight:700; padding:14px 36px; border-radius:8px; border:none; cursor:pointer; font-size:1rem; width:100%; letter-spacing:0.5px;">Send Inquiry</button>
     <div id="sf-success" style="display:none; background:rgba(255,255,255,0.2); border-radius:8px; padding:16px; margin-top:16px; color:white; font-weight:600;">✅ Thank you! We'll be in touch shortly.</div>
     <div id="sf-error" style="display:none; background:rgba(255,0,0,0.2); border-radius:8px; padding:16px; margin-top:16px; color:white; font-size:0.9rem;"></div>
   </div>
 
-  <div style="margin-top:36px; display:flex; justify-content:center; gap:32px; flex-wrap:wrap; font-size:0.9rem; color:#f0d5a8;">
-    <span>📞 <a href="tel:+12016585953" style="color:#f5c842; text-decoration:none;">201-658-5953</a></span>
-    <span>📧 <a href="mailto:peri@triplepVenture.com" style="color:#f5c842; text-decoration:none;">peri@triplepVenture.com</a></span>
-    <span>💬 <a href="https://wa.me/12016585953" target="_blank" style="color:#f5c842; text-decoration:none;">WhatsApp</a></span>
+  <div style="margin-top:32px; display:flex; justify-content:center; gap:32px; flex-wrap:wrap; font-size:0.9rem; color:#a8cfe0;">
+    <span>📞 <a href="tel:+12016585953" style="color:#8fd3f4; text-decoration:none;">201-658-5953</a></span>
+    <span>📧 <a href="mailto:peri@triplepVenture.com" style="color:#8fd3f4; text-decoration:none;">peri@triplepVenture.com</a></span>
+    <span>💬 <a href="https://wa.me/12016585953" target="_blank" style="color:#8fd3f4; text-decoration:none;">WhatsApp</a></span>
   </div>
 </section>
 
 <!-- FOOTER -->
-<footer style="background:#2a0f00; color:#aaa; text-align:center; padding:20px; font-size:0.8rem;">
+<footer style="background:#061825; color:#aaa; text-align:center; padding:20px; font-size:0.8rem;">
   © 2025 Triple P Ventures LLC · All Rights Reserved
 </footer>
 
